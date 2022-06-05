@@ -1,0 +1,62 @@
+.cols {
+    width: 900px;
+    margin-inline: auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 50px;
+  }
+  
+  .cols .col {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.178);
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+  
+  .cols .col .cell {
+    height: 150px;
+    border-radius: 10px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    cursor: move;
+  }
+  
+  .cols .col .cell.green {
+    background: green;
+  }
+  
+  .cols .col .cell.red {
+    background: red;
+  }
+  
+  .cols .col .cell.blue {
+    background: blue;
+  }
+  
+  .cols .col .cell.pink {
+    background: hotpink;
+  }
+  
+  .cols .col .cell.yellow {
+    background: yellow;
+  }
+  
+  .cols .col .cell.teal {
+    background: teal;
+  }
+  
+  .cols .col .cell.black {
+    background: black;
+  }
